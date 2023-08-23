@@ -1,0 +1,58 @@
+{
+  "Paises": [
+    {
+      "id": 1,
+      "name": "Colombia",
+      "cities": [
+        {
+          "name": "Cali",
+          "cod": 200,
+          "weather": {
+            "state": "Nublado",
+            "temp": 298.15,
+            "temp_min": 298.15,
+            "temp_max": 298.15,
+            "humidity": 73,
+            "wind": {
+              "speed": 1.5
+            }
+          }
+        },
+        {
+          "name": "Palmira",
+          "cod": 200,
+          "weather": {
+            "state": "Nublado",
+            "temp": 298.15,
+            "temp_min": 298.15,
+            "temp_max": 298.15,
+            "humidity": 73,
+            "wind": {
+              "speed": 1.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Argentina",
+      "cities": [
+        {
+          "name": "Buenos Aires",
+          "cod": 200,
+          "weather": {
+            "state": "Nublado",
+            "temp": 298.15,
+            "temp_min": 298.15,
+            "temp_max": 298.15,
+            "humidity": 73,
+            "wind": {
+              "speed": 1.5
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

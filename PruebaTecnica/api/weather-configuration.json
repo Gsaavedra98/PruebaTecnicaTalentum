@@ -1,0 +1,16 @@
+{
+  "weatherVariables": [
+    {
+      "name": "Humedad",
+      "route": "main.humidity"
+    },
+    {
+      "name": "Temperatura",
+      "route": "main.temp"
+    },
+    {
+      "name": "Velocidad Viento",
+      "route": "wind.speed"
+    }
+  ]
+}
