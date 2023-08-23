@@ -1,0 +1,36 @@
+.card {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 0;
+}
+.card:last-child {
+  border: none;
+}
+
+.subcard {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: fit-content;
+  margin-right: 0.5rem;
+  width: 50px;
+  height: 50px;
+}
+
+.titulo {
+  font-weight: 300;
+}
+
+.data {
+  font-size: 24px;
+  font-weight: 300;
+}

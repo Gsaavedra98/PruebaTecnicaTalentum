@@ -1,0 +1,17 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(20%, 1fr)
+  ); /* Columnas automáticas */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  gap: 10px; /* Espacio entre elementos */
+  min-height: 100vh;
+}
+
+@media (max-width: 1270px) {
+  .app {
+    grid-template-columns: 1fr;
+  }
+}
